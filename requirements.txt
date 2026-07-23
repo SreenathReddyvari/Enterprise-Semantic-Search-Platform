@@ -1,0 +1,17 @@
+sentence-transformers
+faiss-cpu
+chromadb
+rank-bm25
+fastapi
+uvicorn[standard]
+streamlit
+pandas
+numpy
+pydantic
+sqlalchemy
+psycopg2-binary
+python-multipart
+python-dotenv
+plotly
+pytest
+httpx

@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+ess-venv/
+.env
+output/*.db
+vector_db/*.faiss
+vector_db/*.json
+chroma.sqlite3
+.pytest_cache/
+*.egg-info/
+.DS_Store
