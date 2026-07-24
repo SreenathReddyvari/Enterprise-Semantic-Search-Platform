@@ -58,7 +58,7 @@ if st.button("Search", type="primary") or query:
                 for i, r in enumerate(results)
             ]
             df = pd.DataFrame(table_rows)
-            st.dataframe(df, use_container_width=True, hide_index=True)
+            st.dataframe(df, width="stretch", hide_index=True)
 
             st.download_button(
                 "Download results as CSV",
